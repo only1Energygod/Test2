@@ -1,0 +1,136 @@
+body {
+  background-color: hsl(300, 24%, 96%);
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 350px;
+}
+
+/* Color Format */
+h1,
+.containerTwo {
+  color: hsl(300, 43%, 22%);
+}
+
+.containerOne p {
+  color: hsl(303, 10%, 53%);
+}
+
+.containerB {
+  color: hsl(300, 24%, 96%);
+}
+
+.customerLevel {
+  color: hsl(333, 80%, 67%);
+}
+
+.customer {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 5px;
+}
+
+/* Element Positioning and Sizing */
+
+.mainPage {
+  width: 1050px;
+  margin: auto;
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.containerA,
+.containerB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerOne h1 {
+  font-size: 50px;
+}
+
+.containerOne p {
+  font-size: 20px;
+}
+
+.containerB {
+  /* border: 1px solid black; */
+  height: 250px;
+}
+
+.containerOne,
+.containerTwo {
+  width: 45%;
+}
+
+.containerTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rated {
+  font-size: 15px;
+  width: 75%;
+  background-color: hsl(304, 21%, 85%);
+  border-radius: 4px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#divCenter {
+  align-self: center;
+}
+
+#divEnd {
+  align-self: flex-end;
+}
+
+.customer {
+  width: 330px;
+  height: 180px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+
+.review {
+  /*border-style: solid;*/
+  text-wrap: wrap;
+}
+
+.profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.profile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile div h4,
+.profile div p {
+  margin: 0;
+  width: 100px;
+}
